@@ -1,3 +1,3 @@
-### 100 Days of Infosec
+### AWS
 
-My learnings and notes from 100 Days of infosec.
+Learning AWS and cloud computing
