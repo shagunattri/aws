@@ -115,3 +115,38 @@ version of data
 - Transition Standard-IA to Amazon Glacier
 - Expiration lifecycle policy
 - Versioning support
+
+### AWS EC2
+
+- Elastic Compute Cloud(EC2) provides us with scalable computing capacity in the AWS cloud.
+- An EC2 instance will eliminate the requirement for us to spend money on hardware up front
+- We would also be able to configure networking,security,and manage our storage needs.
+- EC2 enables us to handle changes in requirements.
+- Aids in forcasting requirements
+- EC2 instances are virtual computing environments
+- Amazon Machin Image(AMI) are preconfigured template for our instances.
+- Secure login information for our instances using key pairs
+- Create storage volumes for temporary data that's deleted when we stop or terminate our instance.These are called instance store volumes
+- For persistent storage volumes for our data,we can use Amazon Elastic Block Store(Amazon EBS)
+- Multiple physical locations for our instances and Amazon EBS volumes
+- We can launch different types of instances from a single AMI.An instance type determines the hardware of the host computer used for our instance.
+- Instance type falls into the following categories:
+    - General Purpose - Amazon EC2 A1 instances
+    - Compute Optimized - C5 instances are optimized for compute intensive workloads.
+    - Memory Optimized - used for memory intensive applications such as high performance databases
+    - Accelerated Computing - commonly used for machine learning
+    - Storage Optimized - HDD-based local storage,delivers high disk throughput,and a balance of compute and memory
+- There are 4 ways to pay for EC2 usage:
+    - pay-as-you-go(On-Demand)
+    - reserved instances
+    - Amazon EC2 spot instances
+    - A dedicated Host
+
+### AWS VPC
+
+An amazon Virtual Private Cloud enables us to launch AWS resources intoa virtual network we define.This virtual network resembles a traditional data center network
+
+- As a part of the default VPC,AWS creates a /16 IPV4 CIDR block,/20 subnets,an internet gateway,security group,ACL and DHCP option set.
+- Only subnet is permitted per availability zone.
+
+https://cidr.xyz/
