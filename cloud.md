@@ -66,3 +66,52 @@ IAM roles permits to deligate access and define permission to trusted entities o
 
 Name a role and attach policies to the role.
 
+### AWS S3
+
+AWS S3 is AWS storage. It has a simple web services interface that we can use to store and retrieve almost any amount of data.
+
+A bucket is a container for objects stored in S3.
+
+We can use Amazon S3 for backup and ariving,Static website hosting,Disaster recovery,content storage and many more applications.
+
+- AWS Simple Storage Service
+- Used for Media sharing,Software distribution,Backup,Online storage,Application storage
+- Amazon S3 is a simple key value store.
+- It is designed to store as many objects as we want
+- A key is the name that we assign to an object.We use the object key to retrieve the object in our bucket.
+- Within a bucket,a key and version ID uniquely identify an object.
+- The version ID is a string that AMazon S3 generates when we add an object to our bucket.
+- A value is the content that we are storing.An object value can be any sequence of bytes.Objects can range in size from 0 to 5TB.
+- Metadata is a set of name-value pairs that we can use to store information about our object.
+- we can assign metadata,(user-defined metadata),to our objects in Amazon S3.
+- Amazon S3 also assigns system-metadata to our objects that it uses for management purposes.
+- Amazon S3 supports Access Control Lists(ACL) and user-based access control.
+
+S3 scalability,Durability,Avalability
+
+built in error correction
+version of data
+
+### Amazon S3 Storage Classes
+
+99.99999999999% durability
+
+- S3 Standard
+    - Big data analysis
+    - Content distribution
+    - static website hosting
+- S3 Standard IA(Infrequent access)
+    - Backup & archive
+    - disaster recovery
+    - file sync & share
+    - Long retained data
+- Amazon S3 Glacier
+    - Long term archive
+    - Digital preservation
+    - Magnetic tape Replacement
+
+### Data lifecycle management
+- Transition standard to standard-IA
+- Transition Standard-IA to Amazon Glacier
+- Expiration lifecycle policy
+- Versioning support
